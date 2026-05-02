@@ -1,4 +1,5 @@
 # 🎓 Tableau Project: Online Course Engagement Analysis
+![](https://github.com/YadavBarkha/Tableau_Mini_Project/blob/main/Scrrenshots/banner.jpg)
 
 ## 🔍 Project Overview
 
@@ -152,7 +153,8 @@ Provides deep performance comparison.
 
 ## 📸 Dashboard Preview
 
-*(Add screenshots here)*
+![](https://github.com/YadavBarkha/Tableau_Mini_Project/blob/main/Scrrenshots/Screenshot%202026-01-13%20122651.png)
+![](https://github.com/YadavBarkha/Tableau_Mini_Project/blob/main/Scrrenshots/Screenshot%202026-01-13%20122657.png)
 
 ---
 
