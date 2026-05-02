@@ -1,59 +1,145 @@
-# 📊 Tableau Mini Project 4: Data Visualization & Dashboard Analysis
+# 🎓 Tableau Project: Online Course Engagement Analysis
 
 ## 🔍 Project Overview
 
-This mini project focuses on building interactive visualizations using Tableau to analyze structured data and extract meaningful insights. The objective is to practice data visualization techniques and dashboard creation.
+This project analyzes learner behavior across online courses to understand enrollment trends, engagement levels, and course completion performance. The goal is to generate actionable insights using Tableau dashboards and storytelling.
 
 ---
 
-## 🎯 Objective
+## 🎯 Business Problem
 
-* Understand data patterns through visual analysis
-* Create interactive dashboards
-* Apply filters and basic calculations
-* Improve data storytelling skills
+Online learning platforms need to track learner engagement and completion rates to improve course effectiveness. This project answers:
 
----
-
-## 📁 Dataset
-
-The dataset includes structured data with categorical and numerical variables used for analysis and visualization.
+* Are enrollments increasing over time?
+* Which courses are most popular?
+* How does engagement impact completion?
+* Which regions perform better?
 
 ---
 
-## 📊 Key Visualizations
+## 📁 Dataset Description
 
-* Bar Chart – Comparison across categories
-* Line Chart – Trend analysis over time
-* Pie Chart – Distribution analysis
-* KPI – Key metric summary
+* **UserID** – Unique learner identifier
+* **Course Name** – Tableau, Power BI, Excel
+* **Enrollment Date** – Date of enrollment
+* **Completion Status** – Completed or Dropped
+* **Watch Hours** – Time spent learning
+* **Country** – Learner location
 
 ---
 
-## 📊 Dashboard
+## 📊 Key Visualizations (Worksheets)
 
-### 🔹 Overview Dashboard
+### 1. Total Enrollments (KPI)
 
-* Displays key metrics and visual comparisons
-* Includes filters for better interactivity
+Shows total number of learners.
 
-👉 **Insight:** Provides a quick understanding of data distribution and trends.
+### 2. Course-wise Enrollment
+
+Identifies most popular courses.
+
+### 3. Completion Status Distribution
+
+Displays % of completed vs dropped learners.
+
+### 4. Average Watch Hours by Course
+
+Measures engagement across courses.
+
+### 5. Monthly Enrollment Trend
+
+Analyzes enrollment growth over time.
+
+### 6. Country-wise Engagement
+
+Compares engagement across regions.
+
+### 7. Completion by Country & Course
+
+Provides deep performance comparison.
+
+---
+
+## 📊 Dashboards
+
+### 🔹 Dashboard 1: Enrollment Overview
+
+* Total Enrollments KPI
+* Course-wise Enrollment
+* Monthly Trend
+
+👉 **Insight:** Shows platform growth and popular courses.
+
+---
+
+### 🔹 Dashboard 2: Engagement Analysis
+
+* Avg Watch Hours
+* Country-wise Engagement
+* High Engagement Users
+
+👉 **Insight:** Identifies how actively learners engage.
+
+---
+
+### 🔹 Dashboard 3: Completion Performance
+
+* Completion Distribution
+* Completion by Country & Course
+
+👉 **Insight:** Evaluates success and dropout rates.
 
 ---
 
 ## 🎛 Features Implemented
 
-* Filters for dynamic data exploration
-* Basic calculated fields
-* Interactive dashboard design
+### ✅ Parameters
+
+* Course Selector
+* Watch Hours Threshold
+* Completion Filter
+
+### ✅ Sets
+
+* High Engagement Users
+* Popular Courses
+* Completed Users
+
+### ✅ Hierarchy
+
+* Enrollment Date → Year → Month
+
+### ✅ Grouping
+
+* BI Tools vs Spreadsheet Tools
+
+---
+
+## 📖 Storytelling Insights
+
+### 📌 Story 1: Learner Growth
+
+* Enrollments show increasing trend
+* Certain courses drive higher demand
+
+👉 **Conclusion:** Platform growth is driven by popular courses.
+
+---
+
+### 📌 Story 2: Engagement & Completion
+
+* Higher watch hours lead to better completion
+* Regional differences affect performance
+
+👉 **Conclusion:** Engagement is key to learning success.
 
 ---
 
 ## 📊 Key Insights
 
-* Data shows variation across categories
-* Trends indicate changes over time
-* Visual comparisons help identify patterns
+* Top courses contribute most enrollments
+* Engagement directly impacts completion
+* Some regions perform better than others
 
 ---
 
@@ -66,26 +152,27 @@ The dataset includes structured data with categorical and numerical variables us
 
 ## 📸 Dashboard Preview
 
-*(Add screenshot here)*
+*(Add screenshots here)*
 
 ---
 
 ## 🚀 How to Use
 
-1. Download the Tableau file
-2. Open in Tableau Desktop
-3. Interact using filters
+1. Download `.twbx` file
+2. Open in Tableau
+3. Explore dashboards and story
 
 ---
 
-## 💡 Learning Outcome
+## 💡 Project Highlights
 
-* Improved Tableau visualization skills
-* Learned dashboard design principles
-* Practiced data analysis techniques
+* End-to-end Tableau project
+* Interactive dashboards
+* Business-focused insights
+* Storytelling approach
 
 ---
 
 ## 📬 Contact
 
-Feel free to connect for feedback or suggestions.
+Feel free to connect for feedback or collaboration.
